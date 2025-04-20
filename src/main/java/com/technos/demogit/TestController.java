@@ -13,5 +13,9 @@ public class TestController {
         return "new String()";
     }
     
-
+    @GetMapping("heliel")
+    public String heliel() {
+        return "heliel";
+    }
+    
 }
