@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class TestController {
 
     @GetMapping("test")
-    public String test() {
+    public String teste() {
         return "new String()";
     }
 
