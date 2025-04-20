@@ -12,6 +12,11 @@ public class TestController {
     public String test() {
         return "new String()";
     }
+
+    @GetMapping("caiocabecinha")
+    public String test() {
+        return "caio";
+    }
     
     @GetMapping("heliel")
     public String heliel() {
